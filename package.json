@@ -1,0 +1,11 @@
+{
+  "name": "integration-deploiement-continu",
+  "version": "1.0.0",
+  "description": "Exercice CI/CD avec GitHub Actions",
+  "main": "src/calc.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT"
+}
