@@ -5,7 +5,8 @@
   "main": "src/calc.js",
   "type": "module",
   "scripts": {
-    "test": "node --test"
+    "test": "node --test",
+    "build": "rm -rf dist && mkdir dist && cp -r src/* dist/"
   },
   "license": "MIT"
 }
